@@ -6,10 +6,14 @@ The employee the password generator was created for needed a program that could 
 
 The features of this password generator include:
  
-✅ Employee can set the length of the password anyhwere from 8 to 128 characters by way of input.  
+✅ Employee can set the length of the password anywhere from 8 to 128 characters by way of input.  
+
 ✅ Employee can choose whether to include **special characters** in the password by way of confirmation. #️⃣ 
+
 ✅ Employee can choose whether to include **numeric characters** in the password by way of confirmation. 🔢
+
 ✅ Employee can choose whether to include **lowercase characters** in the password by way of confirmation. 🔡
+
 ✅ Employee can choose whether to include **uppercase characters** in the password by way of confirmation. 🔠
 
 ❗️The employee must select one of these types of characters for the password to be generated. 
