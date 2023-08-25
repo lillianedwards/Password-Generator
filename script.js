@@ -18,7 +18,7 @@ function generatePassword() {
   );
   if (userCharslength < 8 || userCharslength > 128) {
     alert("Please choose a number between 8 and 128.");
-    generatePassword();
+    return generatePassword();
   }
   var specialChar = confirm(
     "Click OK to confirm including special characters."
@@ -34,7 +34,7 @@ function generatePassword() {
   );
   if (!specialChar && !numericChar && !lowercaseChar && !uppercaseChar) {
     alert("Please confirm the use of at least one type of character.");
-    generatePassword();
+    return generatePassword();
   }
   //gathered users preferences for password
 
